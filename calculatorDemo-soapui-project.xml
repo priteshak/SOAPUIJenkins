@@ -274,7 +274,7 @@ if(a==b){
 }
 else{
 	log.info "Fail"
-	asser false
+	assert false
 }
 </script></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="80caadb9-ff81-469c-acf6-a81e2834e0b5" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="subAutomation" searchProperties="true"><con:settings/><con:testStep type="request" name="Substraction" id="48a02763-32c2-42bd-b074-7b39e94a88aa"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>CalculatorSoap</con:interface><con:operation>Subtract</con:operation><con:request name="Substraction" id="e89c1df5-ff50-4c10-bb4c-3ead0ca80e07"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.dneonline.com/calculator.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">\r
    <soapenv:Header/>\r
