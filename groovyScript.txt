@@ -1,0 +1,10 @@
+a = 5
+b = 5
+if(a==b){
+	log.info "Pass"
+}
+else{
+	log.info "Fail"
+        log.info "AAAAAAA"
+	assert false
+}
