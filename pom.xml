@@ -11,7 +11,7 @@
     <pluginRepositories>
         <pluginRepository>
             <id>SmartBearPluginRepository</id>
-            <url>https://repo.maven.apache.org/maven2</url>
+            <url>http://rapi.tools.ops.smartbear.io/nexus/content/groups/public/com/smartbear/soapui</url>
         </pluginRepository>
     </pluginRepositories>
 
