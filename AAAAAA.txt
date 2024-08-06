@@ -1,0 +1,55 @@
+D:\JenkinsProject\target is unavailable.
+
+332cfcafcd104dd3b5071e75069f28e0
+Jenkins@123
+Jenkins URL - http://localhost:8080/
+
+
+cd %WORKSPACE%
+"C:\Program Files\SmartBear\SoapUI-5.6.0\bin\testrunner.bat" "%WORKSPACE%\calculatorDemo-soapui-project.xml"
+
+
+Working:
+c:
+cd "C:\Program Files\SmartBear\SoapUI-5.7.2\bin"
+testrunner.bat "C:\Users\Pritesh\OneDrive\Desktop\POC_Jenkins\calculatorDemo-soapui-project.xml"
+
+java -jar jenkins.war --enable-future-java
+
+
+
+Working Git -> Jenkins
+
+cd "C:\Program Files\SmartBear\SoapUI-5.7.2\bin"
+testrunner.bat "%WORKSPACE%\calculatorDemo-soapui-project.xml"
+
+cd "C:\Program Files\SmartBear\SoapUI-5.7.2\bin"
+testrunner.bat -r -j -f"%WORKSPACE%\soapui-results" "%WORKSPACE%\calculatorDemo-soapui-project.xml"
+
+
+
+c:
+cd "C:\Program Files\SmartBear\SoapUI-5.7.2\bin"
+testrunner.bat "C:\Users\Pritesh\OneDrive\Desktop\POC_Jenkins\calculatorDemo-soapui-project.xml"
+
+C:/Users/Pritesh/OneDrive/Desktop/POC_Jenkins/calculatorDemo-soapui-project.xml
+
+how to send allure report in email from jenkins
+
+allure-results
+
+Local -> Jenkins
+
+c:
+cd "C:\Program Files\SmartBear\SoapUI-5.7.2\bin"
+testrunner.bat "C:\Users\Pritesh\OneDrive\Desktop\POC_Jenkins\calculatorDemo-soapui-project.xml"
+
+**/target/soapui-reports/*.xml
+
+
+
+
+
+
+
+
